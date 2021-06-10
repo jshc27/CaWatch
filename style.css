@@ -1,0 +1,23 @@
+html {
+
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+    border: 1px solid black;
+
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.container {
+
+    border: 2px solid black;
+    height: 400px;
+    width: 400px;
+    border-radius: 20px;
+}
