@@ -30,10 +30,8 @@ body {
 }
 
 .container_screen {
-    
-    display: flex;
-    grid-column: 1;
-    grid-row: 2;
+    margin-top: 20px;
+    width: 200px;
     border: 1px solid red;
 }
 
