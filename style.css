@@ -15,7 +15,9 @@ body {
 }
 
 .container {
-
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: repeat(7, 1fr);
     border: 2px solid black;
     height: 400px;
     width: 400px;
