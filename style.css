@@ -21,5 +21,127 @@ body {
     border: 2px solid black;
     height: 400px;
     width: 400px;
+    padding: 20px;
     border-radius: 20px;
+    grid-gap: 5px;
+}
+
+.container_screen {
+    
+    display: grid;
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.number9 {
+
+    display: grid;
+    grid-column: 3;
+    grid-row: 4;
+    align-items: center;
+}
+.number8 {
+
+    display: grid;
+    grid-column: 2;
+    grid-row: 4;
+    align-items: center;
+}
+
+.number7 {
+
+    display: grid;
+    grid-column: 1;
+    grid-row: 4;
+    align-items: center;
+}
+.division {
+
+    display: grid;
+    grid-column: 4;
+    grid-row: 4;
+    align-items: center;
+}
+.number6 {
+
+    display: grid;
+    grid-column: 3;
+    grid-row: 5;
+    align-items: center;
+}
+.number5 {
+
+    display: grid;
+    grid-column: 2;
+    grid-row: 5;
+    align-items: center;
+}
+
+.number4 {
+
+    display: grid;
+    grid-column: 1;
+    grid-row: 5;
+    align-items: center;
+}
+.multiplicacion {
+
+    display: grid;
+    grid-column: 4;
+    grid-row: 5;
+    align-items: center;
+}
+.number3 {
+
+    display: grid;
+    grid-column: 3;
+    grid-row: 6;
+    align-items: center;
+}
+.number2 {
+
+    display: grid;
+    grid-column: 2;
+    grid-row: 6;
+    align-items: center;
+}
+.number1 {
+
+    display: grid;
+    grid-column: 1;
+    grid-row: 6;
+    align-items: center;
+}
+
+.menos {
+    display: grid;
+    grid-column: 4;
+    grid-row: 6;
+    align-items: center;
+}
+
+.number0 {
+    display: grid;
+    grid-column: 1;
+    grid-row: 7;
+    align-items: center;
+}
+
+.point {
+    display: grid;
+    grid-column: 2;
+    grid-row: 7;
+    align-items: center;
+}
+.suma {
+    display: grid;
+    grid-column: 3;
+    grid-row: 7;
+    align-items: center;
+}
+.igual {
+    display: grid;
+    grid-column: 4;
+    grid-row: 7;
+    align-items: center;
 }
