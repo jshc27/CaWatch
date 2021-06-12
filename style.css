@@ -7,6 +7,7 @@ html {
 }
 
 body {
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -24,13 +25,16 @@ body {
     border-radius: 20px;
     padding: 20px;
     border-radius: 20px;
+
 }
 
 .container_description {
+
     display: flex;
     justify-content: space-between;
     font-style: italic;
     color: white;
+
 }
 .container_buttons {
 
@@ -41,6 +45,7 @@ body {
 }
 
 .container_screen {
+
     display: flex;
     place-items: center;
     margin-top: 20px;
@@ -59,9 +64,11 @@ body {
     padding-left: 10px;
     font-size: 25px;
     font-weight: 700;
+
 }
 
 .number0, .number1, .number2, .number3, .number4, .number5, .number6, .number7, .number8, .number9, .point, .suma, .division, .igual, .menos, .multiplicacion {
+
     cursor: pointer;
     background: linear-gradient(317.7deg, rgba(0, 0, 0, 0.4) 0%, rgba(255, 255, 255, 0.4) 105.18%), #E7EBF0;
     background-blend-mode: soft-light, normal;
@@ -69,6 +76,7 @@ body {
     box-sizing: border-box;
     border-radius: 10px;
     font-size: 15px;
+
 }
 
 .number9 {
@@ -85,6 +93,7 @@ body {
     grid-column: 2;
     grid-row: 4;
     align-items: center;
+
 }
 
 .number7 {
@@ -93,6 +102,7 @@ body {
     grid-column: 1;
     grid-row: 4;
     align-items: center;
+
 }
 .division {
 
@@ -100,6 +110,7 @@ body {
     grid-column: 4;
     grid-row: 4;
     align-items: center;
+
 }
 .number6 {
 
@@ -107,6 +118,7 @@ body {
     grid-column: 3;
     grid-row: 5;
     align-items: center;
+
 }
 .number5 {
 
@@ -114,6 +126,7 @@ body {
     grid-column: 2;
     grid-row: 5;
     align-items: center;
+
 }
 
 .number4 {
@@ -122,6 +135,7 @@ body {
     grid-column: 1;
     grid-row: 5;
     align-items: center;
+
 }
 .multiplicacion {
 
@@ -129,6 +143,7 @@ body {
     grid-column: 4;
     grid-row: 5;
     align-items: center;
+
 }
 .number3 {
 
@@ -136,6 +151,7 @@ body {
     grid-column: 3;
     grid-row: 6;
     align-items: center;
+
 }
 .number2 {
 
@@ -143,6 +159,7 @@ body {
     grid-column: 2;
     grid-row: 6;
     align-items: center;
+
 }
 .number1 {
 
@@ -150,37 +167,50 @@ body {
     grid-column: 1;
     grid-row: 6;
     align-items: center;
+
 }
 
 .menos {
+
     display: grid;
     grid-column: 4;
     grid-row: 6;
     align-items: center;
+
 }
 
 .number0 {
+
     display: grid;
     grid-column: 1;
     grid-row: 7;
     align-items: center;
+
 }
 
 .point {
+
     display: grid;
     grid-column: 2;
     grid-row: 7;
     align-items: center;
+
 }
+
 .suma {
+
     display: grid;
     grid-column: 3;
     grid-row: 7;
     align-items: center;
+
 }
+
 .igual {
+
     display: grid;
     grid-column: 4;
     grid-row: 7;
     align-items: center;
+
 }
