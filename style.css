@@ -68,7 +68,7 @@ body {
 
 }
 
-.number0, .number1, .number2, .number3, .number4, .number5, .number6, .number7, .number8, .number9, .point, .suma, .division, .igual, .menos, .multiplicacion {
+.number0, .number1, .number2, .number3, .number4, .number5, .number6, .number7, .number8, .number9, .point, .suma, .division, .igual, .reset, .resta, .multiplicacion {
 
     cursor: pointer;
     background: linear-gradient(317.7deg, rgba(0, 0, 0, 0.4) 0%, rgba(255, 255, 255, 0.4) 105.18%), #E7EBF0;
@@ -173,7 +173,7 @@ body {
 
 }
 
-.menos {
+.resta {
 
     display: grid;
     grid-column: 4;
@@ -216,4 +216,12 @@ body {
     grid-row: 7;
     align-items: center;
     
+}
+
+.reset {
+
+    display: grid;
+    grid-column: 4;
+    grid-row: 2;
+    align-items: center;
 }
