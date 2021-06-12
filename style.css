@@ -3,7 +3,6 @@ html {
     box-sizing: border-box;
     height: 100%;
     width: 100%;
-    border: 1px solid black;
 
 }
 
@@ -18,21 +17,58 @@ body {
 
     height: 400px;
     width: 400px;
-    border: 2px solid black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(314.61deg, rgba(0, 0, 0, 0.3) -31.16%, rgba(255, 255, 255, 0.3) 136.93%), #4E555D;
+    background-blend-mode: soft-light, normal;
+    box-shadow: -2.5px -2.5px 5px rgba(250, 251, 255, 0.4), 2.5px 2.5px 5px #35373E;
+    border-radius: 20px;
     padding: 20px;
     border-radius: 20px;
+}
+
+.container_description {
+    display: flex;
+    justify-content: space-between;
+    font-style: italic;
+    color: white;
 }
 .container_buttons {
 
     display: grid;
-    height: 300px;
+    height: 270px;
     grid-gap: 5px;
+
 }
 
 .container_screen {
+    display: flex;
+    place-items: center;
     margin-top: 20px;
     width: 200px;
-    border: 1px solid red;
+    height: 40px;
+    border: 1px solid #E7EBF0;
+    border-radius: 10px;
+    background: linear-gradient(317.7deg, rgba(0, 0, 0, 0.4) 0%, rgba(255, 255, 255, 0.4) 105.18%), #E7EBF0;
+    background-blend-mode: soft-light, normal;
+    box-shadow: inset -5px -5px 10px #FAFBFF, inset 5px 5px 10px #A6ABBD;
+
+}
+
+.container_screen p {
+
+    padding-left: 10px;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.number0, .number1, .number2, .number3, .number4, .number5, .number6, .number7, .number8, .number9, .point, .suma, .division, .igual, .menos, .multiplicacion {
+    cursor: pointer;
+    background: linear-gradient(317.7deg, rgba(0, 0, 0, 0.4) 0%, rgba(255, 255, 255, 0.4) 105.18%), #E7EBF0;
+    background-blend-mode: soft-light, normal;
+    border: 0.5px solid rgba(255, 255, 255, 0.2);
+    box-sizing: border-box;
+    border-radius: 10px;
+    font-size: 15px;
 }
 
 .number9 {
@@ -41,6 +77,7 @@ body {
     grid-column: 3;
     grid-row: 4;
     align-items: center;
+
 }
 .number8 {
 
