@@ -1,3 +1,8 @@
+var a;
+var b;
+var operacion;
+
+
 function init() {
     //Variables
     var result = document.getElementById("result");
@@ -52,9 +57,75 @@ function init() {
         result.textContent = result.textContent + "0";
     }
 
+    //otros eventos
+
+    reset.onclick = function(e) {
+        resetear();
+    }
+    
+    suma.onclick = function(e) {
+        a = result.textContent;
+        operacion = "+";
+        clear();
+    }
+
+    resta.onclick = function(e) {
+        a = result.textContent;
+        operacion = "-";
+        clear();
+    }
+
+    multiplicacion.onclick = function(e) {
+        a = result.textContent;
+        operacion = "*";
+        clear();
+    }
+
+    division.onclick = function(e) {
+        a = result.textContent;
+        operacion = "/";
+        clear();
+    }
+
+    igual.onclick = function(e) {
+        b = result.textContent;
+        resolver();
+    }
+
 }
 
+ //metodos
 
+ function clear() {
+    result.textContent = "";
+ }
 
-    
-    
+ function reset(){
+    result.textContent = "";
+    a = 0;
+    b = 0;
+    operacion = "";
+ }
+
+function resolver() {
+    var res = 0;
+    switch(operacion){
+        case "+":
+            res = parseFloat(a) + parseFloat(b);
+            break;
+        
+        case "-":
+            res = parseFloat(a) - parseFloat(b);
+            break;
+
+        case "*": 
+            res = parseFloat(a) * parseFloat(b);
+            break;
+
+        case "/": 
+            res = parseFloat(a) / parseFloat(b);
+            break;
+    } 
+    reset();
+    result.textContent = res;
+}
