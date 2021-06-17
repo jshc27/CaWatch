@@ -20,7 +20,7 @@ function init() {
     var resta = document.getElementById("resta");
     var cero = document.getElementById("cero");
     var punto = document.getElementById("punto");
-    var mas = document.getElementById("mas");
+    var suma = document.getElementById("suma");
     var igual = document.getElementById("igual");
     var reset = document.getElementById("reset");
     
@@ -61,31 +61,31 @@ function init() {
 
     reset.onclick = function(e) {
         resetear();
-    }
+    },
     
     suma.onclick = function(e) {
         a = result.textContent;
         operacion = "+";
         clear();
-    }
+    },
 
     resta.onclick = function(e) {
         a = result.textContent;
         operacion = "-";
         clear();
-    }
+    },
 
     multiplicacion.onclick = function(e) {
         a = result.textContent;
         operacion = "*";
         clear();
-    }
+    },
 
     division.onclick = function(e) {
         a = result.textContent;
         operacion = "/";
         clear();
-    }
+    },
 
     igual.onclick = function(e) {
         b = result.textContent;
@@ -100,14 +100,14 @@ function init() {
     result.textContent = "";
  }
 
- function reset(){
+ function resetear(){
     result.textContent = "";
     a = 0;
     b = 0;
     operacion = "";
- }
+}
 
-function resolver() {
+function resolver(){
     var res = 0;
     switch(operacion){
         case "+":
@@ -126,6 +126,6 @@ function resolver() {
             res = parseFloat(a) / parseFloat(b);
             break;
     } 
-    reset();
+    resetear();
     result.textContent = res;
 }
