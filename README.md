@@ -13,6 +13,10 @@ The purpose is to create a calculator applying the basic technologies of Fronten
 ## Demo
 
 https://jshc27.github.io/CaWatch/
+
+<div>
+ <img src="https://user-images.githubusercontent.com/56690309/125700374-304847cc-afea-41ff-b3ce-0f97aad3d417.jpeg" width="400px" height="400px">
+</div>
  
 ## License 
 The MIT license (MIT)
